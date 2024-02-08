@@ -1,0 +1,308 @@
+character = voiceName = VoiceID
+HERO = HERO = 15
+
+none_100_xardas = XARDAS = 14
+none_116_mud = PARZIVAL
+none_addon_115_eremit = EREMIT = 4
+none_1192_fregeal = DAMIANUT
+none_104_gomez = 1
+none_102_kreol = DARON = 10
+none_addon_1159_rhademes = RHADEMES = 3
+none_106_rodriguez = RODRIGUEZ = 1
+
+rigellion = PARZIVAL
+
+pc_mage_di,pc_mage_li,pc_mage_nw,pc_mage_ow = MILTEN = 3
+pc_thief_nw = DIEGO = 11
+pc_fighter_li = GORN = 12
+pc_psionic = LESTER = 13
+pc_psionic_li 
+
+hun_745_raffa = VIKRAM
+hun_742_alfred = ALFRED
+hun_744_barem = MARK
+hun_741_falk = WALTER
+hun_743_nix = RASHID
+
+dh_mainnpc = ANGEL
+
+vlk_438_alrik = JOSEPH
+vlk_424_alwin = ALWIN = 12
+vlk_456_abuyin = ABUYIN = 13
+vlk_4570_avabul,vlk_5570_avabul = LYARA
+vlk_6002_bagrus = PARZIVAL
+vlk_494_attila = ATTILA = 9
+vlk_440_bartok = BARTOK = 4
+vlk_6130_benchel = MILTEN = 3
+vlk_41200_bilgot = BILGOT = 5
+vlk_434_borka = BORKA = 11
+vlk_413_bosper = BOSPER = 11
+vlk_437_brahim = BRAHIM = 7
+vlk_457_brian = BRIAN = 4
+vlk_433_bromor = BROMOR = 4
+vlk_4100_brutus = BRUTUS = 6
+vlk_468_canthar = CANTAHR = 9
+vlk_461_carl = CARL = 5
+vlk_447_cassia = CASSIA = 16
+vlk_417_constantino = CONSTANTINO = 10
+vlk_420_coragon = CORAGON = 9
+vlk_401_cornelius = CORNELIUS = 13
+vlk_4106_dobar = DOBAR = 8
+vlk_6008_dugo = LEON
+vlk_471_edda EDDA = 17
+vlk_4302_addon_elvrich = ELVRICH = 4
+vlk_6004_emnol  = WALTER
+vlk_4108_engor = ENGOR = 13
+vlk_4131_engrom = ENGROM = 12
+vlk_4301_addon_farim = FARIM = 11
+vlk_480_fellan = FELLAN = 6 ***
+vlk_405_fernando = FERNANDO = 14
+vlk_4303_addon_erol = EROL = 10
+vlk_411_gaertner = GAERTNER = 9
+vlk_441_garvell = GARVELL = 4
+vlk_4148_gestath = GESTATH = 9
+vlk_6137_gaspar = WALTER
+vlk_6132_gayvern = JOSEPH
+vlk_6001_gillimor = JAMI
+vlk_988_gravo = TYRELL
+vlk_6005_gunmar = ADAM
+vlk_4111_grimes = GRIMES = 5
+vlk_418_gritta = GRITTA = 16
+vlk_407_hakon = HAKON = 12
+vlk_469_halvor = JAMI
+vlk_414_hanna = HANNA = 17
+vlk_412_harad = HARAD = 12
+vlk_6009_hasan = RAMAKRISHNAN
+vlk_498_ignaz = IGNAZ = 14
+vlk_444_jack = JACK = 14
+vlk_4110_jergan = JERGAN = 13
+vlk_446_jesper = JESPER = 9
+vlk_448_joe = JOE = 10
+vlk_408_jor = JORA = 8
+vlk_4250_jorgen_li = JOREGEN = 7
+vlk_431_kardif = KARDIF = 14
+vlk_6006_kardor = 14
+vlk_449_lares = LARES = 9
+vlk_400_larius = LARIUS = 1
+vlk_484_lehmar = LEHMAR = 9
+vlk_6120_lemarguard = 01
+vlk_6109_luis = DAMIANUT
+vlk_404_lutero = LUTERO = 13
+vlk_664_masbo = PARZIVAL
+vlk_416_matteo = MATTEO = 9
+vlk_6133_maxi = MAXI
+vlk_6026_miguel = MIGUEL = 11
+vlk_432_moe = MOE = 1
+vlk_6010_nash = ZAVADART
+vlk_6110_nigel = WALTER
+vlk_6003_nofeld = PARZIVAL
+vlk_6150_ortego = = ZAGRIEL
+vlk_4107_parlaf = PARLAF = 3
+vlk_445_ramirez = RAMIREZ = 14
+vlk_425_regis = REGIS = 13
+vlk_989_reinar = 9
+vlk_402_richter = RICHTER = 11
+vlk_6007_ruen = 7
+vlk_458_rupert = RUPERT = 3
+vlk_422_salandril = SALANDRIL = 13
+
+djg_705_angar,djg_705_angar_di,djg_705_angar_li,djg_705_angar_nw = ANGAR = 4
+djg_713_biff_li,djg_713_biff_nw = BIFF = 7
+djg_703_cipher = CIPHER = 7
+djg_715_ferros = 1
+djg_7110_godar = GODAR = 13
+djg_7100_kjor = KJOR = 6
+djg_714_jan = JAN = 10
+djg_7080_kurgan = KURHAN = 1
+djg_709_rethon = RETHON = 12
+
+nov_612_babo = BABO = 3
+nov_603_agon = ANGAR = 4 
+nov_11114_holger = DAMIANUT
+nov_601_igaraz = IGARAZ = 13
+nov_11113_jaden = WALTER
+nov_605_opolos = OPOLOS = 12
+nov_600_pedro_li = PEDRO = 9
+
+pir_1300_addon_greg_nw,pir_1320_addon_greg,pir_13200_addon_greg = GREG = 1
+pir_1351_addon_samuel = XARDAS = 14
+pir_6136_abigeil,pir_61360_abigeil = REBECCA
+pir_1352_addon_alligatorjack = ALIJACK = 12
+pir_50089 = DAMIANUT
+pir_50087 = RYAN
+pir_50086 = WALTER
+pir_1362_addon_bones = BONES = 1
+pir_1366_addon_brandon = BRANDON = 4
+pir_6145_brendik = BRENDIK = 3
+pir_1398_addon_inextremo_announcer = CALVIN
+pir_1397_addon_inextremo_charlotte = JENNIFER
+pir_1390_addon_inextremo_drpymonte = JOSEPH
+pir_1396_addon_inextremo_flex = ALFRED
+pir_1395_addon_inextremo_lutter = RYAN
+pir_1391_addon_inextremo_theflail = HOKURN
+pir_1350_addon_francis = FRANCIS = 13
+pir_1357_addon_garett = GARETT = 9
+pir_1354_addon_henry = HENRY = 4
+
+kdf_511_daron = DARON = 10
+kdf_4569_alexone = DAMIANUT
+kdf_508_gorax = GORAX = 14
+kdf_510_hyglas = XARDAS = 14
+kdf_510_hyglas = HYGLAS = 14
+kdf_509_isgaroth = ISGAROTH = 1
+kdf_503_karras = KARRAS = 10
+kdf_505_marduk = MARDUK = 5
+kdf_506_neoras = NEORAS = 1
+kdf_504_parlan = PARLAN = 5
+kdf_500_pyrokar = PYROKAR = 11
+
+
+bau_940_akil = AKIL = 13
+bau_960_bengar = BENGAR = 10
+bau_903_bodo = BODO = 12
+bau_935_bronko = BRONKO = 6
+bau_4300_addon_cavalorn = CAVALORN = 8
+bau_983_dragomir = DRAGOMIR = 12
+bau_961_gaan = GAAN = 3
+bau_982_grimbald = GRIMBALD = 7
+bau_981_grom = GROM = 8
+bau_908_hodges = HODGES = 3
+bau_950_lobart = LOBART = 5
+bau_954_maleth = MALETH = 8
+bau_910_maria MARIA = 17
+bau_984_niclas = NICLAS = 3
+bau_900_onar = ONAR = 14
+bau_970_orlan = ORLAN = 5
+bau_912_pepe = PEPE = 3
+bau_980_sagitta = SAGITTA = 17
+
+
+mil_311_andre = ANDRE = 8
+mil_313_boltan = BOLTAN = 5
+mil_350_addon_martin = MARTIN = 7
+mil_337_mika = MIKA = 12
+mil_304_torwache = ZAVADART
+mil_310_stadtwache = PARZIVAL
+mil_314_mortis = MORTIS = 13
+mil_319_pablo = PABLO = 12
+mil_324_peck = PECK = 12
+
+pal_216_cedric = CEDRIC = 12
+pal_7523_albert = ADAM
+pal_281_fajeth = FAJETH = 12
+pal_200_hagen = HAGEN = 4
+pal_201_ingmar = INGMAR = 6
+pal_258_keroloth = KEROLOTH = 07
+pal_200_hagen = LORD HAGEN = 4
+pal_203_lothar = LOTHAR = 1
+pal_217_marcos = MARCOS = 4
+pal_187_melhior = PARZIVAL
+pal_9168_natan = TYRELL
+pal_251_oric = ORIC = 11
+pal_9160_orto = ORTO = 1
+pal_2520_parcival = PARCIVAL = 13
+pal_9159_rayne = RAYNE = 1
+pal_199_ritter = 10
+pal_7518_ritter = 10
+pal_7519_ritter = 10
+pal_9122_ritter = 10
+
+
+gur_8037_cadar = RAMAKRISHNAN
+gur_8036_namib = VIKRAM
+gur_8002_orun = DAMIANUT
+gur_8003_tyon = VIJAY
+gur_8004_parvez = KHEMET
+
+sek_8046_balam = PARZIVAL
+sek_8038_balor = BABO = 3 
+sek_8008_caine = JAMES
+sek_8011_harlok = PARZIVAL
+sek_8013_joru = TYRELL
+sek_8049_loki = 13
+sek_8039_novize = RAMAKRISHNAN
+sek_8040_novize = RASHID
+sek_8041_novize = ADAM
+sek_8042_novize = TYRELL
+sek_8043_novize = ABUYIN
+sek_8044_novize = JAMI
+
+bdt_1013_bandit_l = JESS = 1
+bdt_1033_fluechtling = ANGAR = 4
+bdt_1086_addon_scatty = JOSEPH
+bdt_1097_addon_fisk = FISK = 12
+bdt_crait = CALVIN
+bdt_1095_addon_crimson = CRIMSON = 10
+bdt_10004_addon_finn = FINN = 7
+bdt_1075_addon_fortuno = FORTUNO = 13
+bdt_10024_addon_garaz = GARAZ = 8
+bdt_20005_kiko = ZAGRIEL
+bdt_4568_kinjarts = ZAGRIEL
+bdt_1091_addon_lucia = LUCIA = 16
+bdt_mil_01 = CALVIN
+bdt_newmineslave_01 = JOSEPH
+bdt_newmineslave_02 = VIKRAM
+bdt_1030_morgahard = MORGAHARD = 7
+bdt_orcmercenary_ostin = ZAGRIEL
+
+xbs_7513_darrion = DARON = 10
+xbs_7501_camper = ISIDRO = ALFRED 
+xbs_7509_drax = MIDWEST
+xbs_7506_dusty = WALTER
+xbs_7508_gornabar = PARZIVAL
+xbs_7507_netbek = TEKA
+xbs_7510_ratford = ZAVADART
+
+sld_809_bennet = BENNET = 6
+sld_853_bret = BRET = 7
+sld_810_dar = DAR = 3
+sld_852_darius = WALTER
+sld_849_hokurn = HOKURN = 1
+sld_808_jarvis = JARVIS = 4
+sld_850_kharim = RYAN
+sld_800_lee = LEE = 4
+sld_10920_loa = SARA
+sld_822_raoul = RAOUL = 1
+sld_804_rod = ROD = 6
+sld_851_roscoe = ALFRED
+sld_6111_rudar = 7
+
+al_npc_scar = ZAGRIEL
+al_peasant_main_farmer = LEON
+
+strf_8123_addon_elk = WALTER
+strf_8122_addon_ferd = VIKRAM
+strf_8146_hart = HART = XARDAS
+strf_8127_addon_hildur = KHEMET
+strf_8126_addon_klovis = JOSEPH
+strf_8125_addon_nuts = PARZIVAL
+strf_8160_ragnar = RAGNAR = 1
+
+
+tpl_8006_gornatot = CALVIN
+tpl_8007_gornavid = JESS
+tpl_8045_hanis = VIKRAM
+
+kdw_14010_addon_cronos_adw = CRONOS = 4
+kdw_14050_addon_merdarion_adw = MERDARION = 6
+kdw_1406_mitras = VIKRAM
+kdw_14030_addon_myxir_adw = MYXIR = 12
+kdw_14020_addon_nefarius_adw = NEFARIUS = 5
+kdw_1407_norolas = PARZIVAL
+kdw_14040_addon_riordian_adw = RIORDIAN = 10
+
+ad_boss6 = RAVEN = 10
+
+ndw_8161_nort = PARZIVAL
+
+al_npc_daring_fighter = KHEMET
+al_innkeepr = RYAN
+al_peasant_main_farmer = ZAVADART
+al_npc_scar = ZAVADART
+al_npc_hermit = DAMIANUT
+
+dmt_darkteacher = ZAGRIEL
+
+wc_druid_teacher = ANGEL
+
+OW_CSP = 4
