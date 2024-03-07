@@ -105,6 +105,7 @@ vlk_402_richter = RICHTER = 11
 vlk_6007_ruen = 7
 vlk_458_rupert = RUPERT = 3
 vlk_422_salandril = SALANDRIL = 13
+vlk_986_viper = VIPER = 13
 
 djg_705_angar,djg_705_angar_di,djg_705_angar_li,djg_705_angar_nw = ANGAR = 4
 djg_713_biff_li,djg_713_biff_nw = BIFF = 7
