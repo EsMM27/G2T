@@ -177,6 +177,7 @@ bau_970_orlan = ORLAN = 5
 bau_912_pepe = PEPE = 3
 bau_980_sagitta = SAGITTA = 17
 
+npc_scout_ec_hermit = CONSTATINO
 
 mil_311_andre = ANDRE = 8
 mil_313_boltan = BOLTAN = 5
