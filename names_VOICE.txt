@@ -9,6 +9,7 @@ none_104_gomez = 1
 none_102_kreol = DARON = 10
 none_addon_1159_rhademes = RHADEMES = 3
 none_106_rodriguez = RODRIGUEZ = 1
+none_1801_fingers = FISK
 
 rigellion = PARZIVAL
 
@@ -176,8 +177,12 @@ bau_900_onar = ONAR = 14
 bau_970_orlan = ORLAN = 5
 bau_912_pepe = PEPE = 3
 bau_980_sagitta = SAGITTA = 17
+bau_902_gunnar = ADAM
 
 npc_scout_ec_hermit = CONSTATINO
+npc_scout_nat = rengaru
+npc_scout_teacher = MIDWEST
+npc_scout_eugene = 12
 
 mil_311_andre = ANDRE = 8
 mil_313_boltan = BOLTAN = 5
@@ -208,6 +213,7 @@ pal_199_ritter = 10
 pal_7518_ritter = 10
 pal_7519_ritter = 10
 pal_9122_ritter = 10
+pal_213 = 12
 
 
 gur_8037_cadar = RAMAKRISHNAN
@@ -246,6 +252,8 @@ bdt_newmineslave_01 = JOSEPH
 bdt_newmineslave_02 = VIKRAM
 bdt_1030_morgahard = MORGAHARD = 7
 bdt_orcmercenary_ostin = ZAGRIEL
+orc_arokh = BRIT
+bdt_brogar = TEKA
 
 xbs_7513_darrion = DARON = 10
 xbs_7501_camper = ISIDRO = ALFRED 
