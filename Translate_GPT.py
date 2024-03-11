@@ -1,33 +1,39 @@
 import openai
-import random
+import json
 import time
+import os
 
-openai.api_key = 'key'
-strings_list = []
+with open("credentials.json", "r", encoding="utf-8") as json_file:
+    cred = json.load(json_file)
 
-with open('TTS_input_Ru.txt', 'r', encoding='utf-8') as file:
-    for line in file:
-        strings_list.append(line.strip())
+key = cred["API_KEY"][0]["GPT_API"]
 
-filtered_strings = [text for text in strings_list if text.strip()]
+openai.api_key = '{key}'
+strings_dict = {}
 
-def process_file(text):
-    max_retries = 3  # Set the maximum number of retry attempts
-    retry_delay = 5  # Set the delay between retry attempts
-    timeout = 5  # Set a higher timeout value (in seconds)
+json_folder = "JSON"  # Assuming your text files are located in a folder named 'txtFiles'
+file = os.listdir(json_folder)
+first_txt_file = os.path.join(json_folder, file[0])
+
+with open(first_txt_file, 'r', encoding='utf-8') as file:
+    strings_dict = json.load(file)
+
+def process_text(text):
+    max_retries = 3
+    retry_delay = 5
+    timeout = 5
 
     for _ in range(max_retries):
         try:
             completion = openai.chat.completions.create(
                 model="gpt-4-0125-preview",
                 messages=[
-                    {"role": "system", "content": "You will be provided Russian Text, your task is to Translate it to english. DO NOT COMMENT JUST TRANSLATE. if you think you can phrase the translation better do it. The text could be a single phrase or an expression or a sentence, if unsure return a # along with the russian text"},
+                    {"role": "system", "content": "Translate the following text from Russian to English:"},
                     {"role": "user", "content": text}
                 ],
                 timeout=timeout
             )
             output = completion.choices[0].message.content
-            
             return output
         except Exception as e:
             print(f"Error processing input '{text}': {e}")
@@ -37,18 +43,17 @@ def process_file(text):
     print(f"Maximum retries reached for input: {text}")
     return None
 
-output_file_path = 'TTS_Input_GPT_3.5.txt'
+for key, value in strings_dict.items():
+    for role, items in value.items():  # Iterate over NPC and HERO dictionaries
+        for item in items:  # Iterate over the list of dictionaries
+            print("Current item:", item)  # Print out the current item for inspection
+            text = item.get('text')  # Use item.get() method to avoid KeyError
+            translated_text = process_text(text)
+            if translated_text is not None:
+                item['text'] = translated_text
 
-with open(output_file_path, 'w', encoding='utf-8') as output_file:
-    for index, text in enumerate(filtered_strings):
-        completion_output = process_file(text)
-        
-        if completion_output is not None:
-            print(completion_output)
-            output_file.write(f'{index+10001}_{completion_output}\n')
+# Write back the translated texts to the JSON file
+with open('output.json', 'w', encoding='utf-8') as output_file:
+    json.dump(strings_dict, output_file, ensure_ascii=False, indent=4)
 
-print("All completions written to the file.")
-import subprocess
-subprocess.run(["python", "remove_quote.py"])
-
-
+print("Translation completed and saved in output.json.")
